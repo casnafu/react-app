@@ -1,0 +1,37 @@
+:root {
+  --maincolor: rgb(88 93 105);
+}
+
+li {
+  list-style: none;
+  color: var(--maincolor);
+}
+
+.Weather {
+  padding: 25px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  max-width: 600px;
+  margin: 40px auto;
+}
+
+.overview h1 {
+  margin: 0;
+  color: var(--maincolor);
+}
+
+.overview ul {
+  margin: 0;
+  padding: 0;
+}
+
+.mainview h2 {
+  font-size: 48px;
+  color: var(--maincolor);
+}
+
+.mainview img {
+  height: 70px;
+  margin-right: 20px;
+  float:left
+}
