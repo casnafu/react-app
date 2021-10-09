@@ -1,4 +1,3 @@
-import logo from './logo.svg';
 import './App.css';
 
 function App() {
@@ -49,6 +48,9 @@ function App() {
             </div>
           </div>
         </div>
+      </div>
+      <div className="link">
+        Open source code at <a href="https://github.com/casnafu/react-app" rel="noreferrer" target="_blank">GitHub</a>
       </div>
     </div>
   );
