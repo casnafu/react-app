@@ -15,7 +15,7 @@ export default function Weather(props) {
           <div className="row mt-4 mainview">
             <div className="col-6 flex">
               <img
-                src="https://ssl.gstatic.com/onebox/weather/64/cloudy.png"
+                src={props.data.icon}
                 alt={props.data.description}
               />
               <Unit celsius={props.data.temperature}/>
