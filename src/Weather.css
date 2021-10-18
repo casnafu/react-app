@@ -35,3 +35,14 @@
   left: 350px;
   bottom: 30px;
 }
+
+.unitTemp a {
+  text-decoration: none;
+}
+
+.unit {
+  font-size:18px;
+  position: relative;
+  bottom: 21px;
+  left: 2px
+}

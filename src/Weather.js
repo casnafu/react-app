@@ -1,5 +1,6 @@
 import React from "react";
 import Date from "./Date";
+import Unit from "./Unit";
 
 export default function Weather(props) {
     return (
@@ -17,7 +18,7 @@ export default function Weather(props) {
                 src="https://ssl.gstatic.com/onebox/weather/64/cloudy.png"
                 alt={props.data.description}
               />
-              <h2>{Math.round(props.data.temperature)}°</h2>
+              <Unit celsius={props.data.temperature}/>
             </div>
             <div className="col-6">
               <ul>
