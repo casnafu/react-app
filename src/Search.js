@@ -48,7 +48,7 @@ export default function Search(props) {
               <input
                 type="search"
                 className="form-control"
-                placeholder="search city"
+                placeholder="Search city"
                 autoFocus="on"
                 id="city-search"
                 onChange={handleCity}
@@ -58,7 +58,7 @@ export default function Search(props) {
               <input
                 type="submit"
                 className="btn btn-primary w-100"
-                value="search"
+                value="Search"
               />
             </div>
           </div>

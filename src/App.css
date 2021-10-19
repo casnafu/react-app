@@ -1,5 +1,6 @@
 :root {
   --maincolor: rgb(88 93 105);
+  --opacity: rgba(221, 221, 221, 0.5)
 }
 
 li {
@@ -8,18 +9,28 @@ li {
 }
 
 .Search {
-  padding: 25px;
-  border: 1px solid #ddd;
-  border-radius: 4px;
-  max-width: 600px;
-  margin: 40px auto;
+  padding: 30px;
+  border: 1px solid var(--opacity);
+  border-radius: 5px;
+  max-width: 700px;
+  margin: 150px auto;
+  box-shadow: 0 30px 50px rgb(65 50 100 / 8%);
+}
+
+.form-control {
+  border: 1px solid var(--opacity) !important;
+  padding: 8px 15px !important;
+}
+
+.btn {
+  padding: 8px 15px !important;
 }
 
 .link {
   font-style: italic;
   font-size: 14px;
   color: var(--maincolor);
-  position: relative;
-  left: 350px;
-  bottom: 30px;
+  position: fixed;
+  left: 500px;
+  bottom: 40px;
 }

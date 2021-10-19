@@ -3,12 +3,23 @@
     color: var(--maincolor);
 }
 
+.daily {
+    padding-top: 8px;
+}
+
+.daily:hover {
+    transition: all ease-in-out 120ms;
+    border-radius: 8px;
+    background: rgba(0, 0, 0, 0.025);
+}
+
 .days {
-    font-weight: 500;
+    font-weight: 400;
+    font-size: 14px;
 } 
 
 .icon {
-    height: 75px;
+    width: 60px;
 }
 
 .temp-min {
