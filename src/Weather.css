@@ -8,6 +8,11 @@
   padding: 0;
 }
 
+.mainview h2 {
+  font-size: 48px;
+  color: var(--maincolor);
+}
+
 .mainview img {
   height: 70px;
   margin-right: 20px;
@@ -16,11 +21,13 @@
 
 .unitTemp a {
   text-decoration: none;
+  color: var(--maincolor);
+  opacity: 0.8;
 }
 
 .unit {
   font-size:18px;
   position: relative;
   bottom: 21px;
-  left: 2px
+  left: 5px
 }

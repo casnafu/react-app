@@ -3,6 +3,14 @@
     color: var(--maincolor);
 }
 
+.days {
+    font-weight: 500;
+} 
+
+.icon {
+    height: 75px;
+}
+
 .temp-min {
     margin-left: 4px;
     opacity: 0.6;
