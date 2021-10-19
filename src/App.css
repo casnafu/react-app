@@ -7,3 +7,19 @@ li {
   color: var(--maincolor);
 }
 
+.Search {
+  padding: 25px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  max-width: 600px;
+  margin: 40px auto;
+}
+
+.link {
+  font-style: italic;
+  font-size: 14px;
+  color: var(--maincolor);
+  position: relative;
+  left: 350px;
+  bottom: 30px;
+}

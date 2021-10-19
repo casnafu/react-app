@@ -1,0 +1,9 @@
+.daily-forecast {
+    text-align: center;
+    color: var(--maincolor);
+}
+
+.temp-min {
+    margin-left: 4px;
+    opacity: 0.6;
+}
