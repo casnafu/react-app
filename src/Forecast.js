@@ -18,12 +18,12 @@ export default function Forecast(props) {
 
     if (ready) {
         return (
-            <div className="daily-forecast mt-3">
+            <div className="Forecast mt-3">
                 <div className="row">
                     {forecast.map((eachDay, index) => {
                         if (index < 5) {
                             return (
-                                <div className="col daily" key={index}>
+                                <div className="col-lg daily" key={index}>
                                     <Daily data={eachDay} />
                                 </div>
                             );

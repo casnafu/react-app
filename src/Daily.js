@@ -17,7 +17,7 @@ export default function Daily(props) {
         const date = new Date(props.data.dt * 1000);
         const day = date.getDay();
 
-        const days = ["Sun", "Mon", "Tue", "Wed", "Thu", "Fri", "Sat"];
+        const days = ["Mon", "Tue", "Wed", "Thu", "Fri", "Sat", "Sun"];
 
         return days[day];
     }

@@ -1,0 +1,83 @@
+@media (max-width: 800px) {
+    .App {
+        background: rgb(65 50 100 / 3%);
+    }
+
+    .Search {
+        margin: 0;
+        padding: 30px 20px;
+        box-shadow: none;
+        border: 0;
+    }
+
+    .link {
+        line-height: 30px;
+        font-size: 16px;
+        font-family: 'Courier New', Courier, monospace;
+        text-align: center;
+        position: inherit;
+        margin-top: 30px;
+    }
+  
+    .Weather h1 {
+        text-align: center;
+        font-size: 36px;
+        margin: revert;
+    }
+
+    
+    li.txt-center {
+        text-align: center;
+        margin-top: 10px;
+        font-size: 18px;
+    }
+
+    .daily {
+        padding: 10px;
+        margin: 10px auto;
+        border-radius: 8px;
+        background: var(--opacity);
+        line-height: 50px;
+    }
+
+    div.days {
+        font-size: 25px;
+        float: left;
+    }
+
+    img.icon {
+        width: 50px;
+        float: right;
+    }
+
+    span.unit {
+        font-size: 30px;
+        position: relative;
+        bottom: 10px;
+        left: 10px;
+        border-radius: 20px;
+    }
+
+    .unitTemp {
+        margin-right: 30px;
+        float: right;
+    }
+    
+    .temp {
+        font-size: 20px;
+        float: right;
+    }
+
+    .mainview ul {
+        display: flex;
+        justify-content: space-evenly;
+        margin-bottom: -5px;
+        margin-top: 15px;
+        padding: 0;
+    }    
+
+
+
+
+}
+

@@ -44,7 +44,7 @@ export default function Search(props) {
       <div className="Search">
         <form onSubmit={handleForm}>
           <div className="row">
-            <div className="col-9">
+            <div className="col-lg-9">
               <input
                 type="search"
                 className="form-control"
@@ -54,7 +54,7 @@ export default function Search(props) {
                 onChange={handleCity}
               />
             </div>
-            <div className="col-3">
+            <div className="col-3 d-lg-block d-none">
               <input
                 type="submit"
                 className="btn btn-primary w-100"
